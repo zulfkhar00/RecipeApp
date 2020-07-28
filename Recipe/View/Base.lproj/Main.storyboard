@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wN2-cj-KR1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -231,8 +232,7 @@
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hxc-iQ-Xwi">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="217"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="374" id="S3P-ne-spQ"/>
-                                                                <constraint firstAttribute="height" constant="217" id="u5c-eG-lSP"/>
+                                                                <constraint firstAttribute="height" constant="217" id="lDn-jG-tOw"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOk-Ys-Q7C">
@@ -289,15 +289,16 @@
                                                         <constraint firstItem="SF1-76-Ww0" firstAttribute="centerY" secondItem="wHc-O5-8Da" secondAttribute="centerY" id="1Ik-yn-wpm"/>
                                                         <constraint firstItem="Rf5-3c-fGg" firstAttribute="top" secondItem="SF1-76-Ww0" secondAttribute="bottom" constant="8" id="1e4-bR-QeQ"/>
                                                         <constraint firstItem="fHo-nd-uOH" firstAttribute="top" secondItem="Qr0-mK-eE5" secondAttribute="bottom" constant="8" id="5rd-f2-z0M"/>
+                                                        <constraint firstItem="JOk-Ys-Q7C" firstAttribute="top" secondItem="hxc-iQ-Xwi" secondAttribute="bottom" constant="16" id="9TP-3R-VDc"/>
                                                         <constraint firstItem="wHc-O5-8Da" firstAttribute="centerX" secondItem="JOk-Ys-Q7C" secondAttribute="centerX" id="GOZ-06-ofQ"/>
-                                                        <constraint firstItem="hxc-iQ-Xwi" firstAttribute="leading" secondItem="1Fw-P6-uUI" secondAttribute="leading" id="JOB-aN-uKD"/>
-                                                        <constraint firstItem="hxc-iQ-Xwi" firstAttribute="top" secondItem="1Fw-P6-uUI" secondAttribute="top" id="UQb-bS-i8C"/>
+                                                        <constraint firstItem="hxc-iQ-Xwi" firstAttribute="top" secondItem="1Fw-P6-uUI" secondAttribute="top" id="K99-nF-wLn"/>
+                                                        <constraint firstAttribute="trailing" secondItem="hxc-iQ-Xwi" secondAttribute="trailing" id="OOJ-WA-S6S"/>
                                                         <constraint firstItem="JOk-Ys-Q7C" firstAttribute="left" secondItem="1Fw-P6-uUI" secondAttribute="left" constant="10" id="WXy-ju-UJU"/>
                                                         <constraint firstItem="wHc-O5-8Da" firstAttribute="top" secondItem="JOk-Ys-Q7C" secondAttribute="bottom" constant="7.5" id="a6I-XW-xzC"/>
                                                         <constraint firstItem="wHc-O5-8Da" firstAttribute="leading" secondItem="Qr0-mK-eE5" secondAttribute="trailing" constant="68" id="cQ4-mo-ICl"/>
-                                                        <constraint firstItem="JOk-Ys-Q7C" firstAttribute="top" secondItem="hxc-iQ-Xwi" secondAttribute="bottom" constant="16" id="caN-UW-U2Q"/>
                                                         <constraint firstItem="fHo-nd-uOH" firstAttribute="centerX" secondItem="Qr0-mK-eE5" secondAttribute="centerX" id="doX-ry-0ry"/>
                                                         <constraint firstItem="MI6-43-IVP" firstAttribute="top" secondItem="wHc-O5-8Da" secondAttribute="bottom" constant="8" id="jhI-LA-XP6"/>
+                                                        <constraint firstItem="hxc-iQ-Xwi" firstAttribute="leading" secondItem="1Fw-P6-uUI" secondAttribute="leading" id="mQx-h7-g9a"/>
                                                         <constraint firstItem="wHc-O5-8Da" firstAttribute="centerY" secondItem="Qr0-mK-eE5" secondAttribute="centerY" id="n1R-Pb-0da"/>
                                                         <constraint firstAttribute="trailing" secondItem="JOk-Ys-Q7C" secondAttribute="trailing" constant="10" id="oaw-Cx-rS7"/>
                                                         <constraint firstItem="SF1-76-Ww0" firstAttribute="leading" secondItem="wHc-O5-8Da" secondAttribute="trailing" constant="68" id="pUB-Ug-AjZ"/>
@@ -662,7 +663,7 @@
             <color red="0.9570000171661377" green="0.9570000171661377" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="primaryColor">
-            <color red="0.92549019607843142" green="0.3190000057220459" blue="0.50599998235702515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.92500001192092896" green="0.3190000057220459" blue="0.50599998235702515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
