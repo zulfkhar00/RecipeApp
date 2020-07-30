@@ -18,6 +18,7 @@ class ShoppingViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        title = "Shopping"
         tableView.dataSource = self
         tableView.delegate = self
         

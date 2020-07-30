@@ -9,6 +9,9 @@
 import Foundation
 import RealmSwift
 
+struct SearchModel: Decodable {
+    var results: [Recipe]
+}
 struct Model: Decodable {
     var recipes: [Recipe]
 }
@@ -17,7 +20,7 @@ struct Recipe: Decodable {
     var id: Int?
     var vegetarian: Bool?
     var vegan: Bool?
-    var extendedIngredients: [ExtendedIngredients]?
+    var extendedIngredients: [ExtendedIngredient]?
     var glutenFree: Bool?
     var dairyFree: Bool?
     var veryHealthy: Bool?
@@ -37,7 +40,7 @@ struct Recipe: Decodable {
     var pricePerServing: Float?
 }
 
-struct ExtendedIngredients: Decodable {
+struct ExtendedIngredient: Decodable {
     var id: Int?
     var aisle: String?
     var consistency: String?

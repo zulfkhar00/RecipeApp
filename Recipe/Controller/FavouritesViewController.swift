@@ -58,4 +58,15 @@ class FavouritesViewController: UIViewController, UITableViewDataSource, UITable
         return 400
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goToDetailsFromFavourite", sender: self)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else {return}
+        guard let recipe = recipes?[indexPath.row] else {return}
+        let destination = segue.destination as? DetailViewController
+        destination?.recipe = ModelTransferHelper.fromCachedToRecipe(recipe)
+    }
 }

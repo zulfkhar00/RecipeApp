@@ -28,6 +28,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        navigationItem.largeTitleDisplayMode = .never
         
         tableView.dataSource = self
         tableView.delegate = self

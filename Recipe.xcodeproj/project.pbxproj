@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A6131C524D1B46A0006952B /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6131C424D1B46A0006952B /* CategoriesViewController.swift */; };
+		3A6131C824D1B4F10006952B /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6131C624D1B4F10006952B /* CategoryCollectionViewCell.swift */; };
+		3A6131C924D1B4F10006952B /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A6131C724D1B4F10006952B /* CategoryCollectionViewCell.xib */; };
 		3A7B55CF24CB202A009082F2 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B55CE24CB202A009082F2 /* DataProvider.swift */; };
 		3AA1FA3624CB236C00967489 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1FA3524CB236C00967489 /* RecipeTableViewCell.swift */; };
 		3AD5B77F24CEDF980044FEC5 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5B77E24CEDF980044FEC5 /* FavouritesViewController.swift */; };
@@ -19,10 +22,14 @@
 		3AE3A56024CE218C001D6217 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3A55F24CE218C001D6217 /* ShoppingViewController.swift */; };
 		3AF3732F24CC368D00D1BCF1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3732E24CC368D00D1BCF1 /* DetailViewController.swift */; };
 		3AF3733124CD979700D1BCF1 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3733024CD979700D1BCF1 /* IngredientTableViewCell.swift */; };
+		3AF9A96F24D17EED009A598C /* ModelTransferHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9A96E24D17EED009A598C /* ModelTransferHelper.swift */; };
 		DCB97B7A4F7D134BFF971BF2 /* Pods_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84DEBA191F47E8AB9806945 /* Pods_Recipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A6131C424D1B46A0006952B /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		3A6131C624D1B4F10006952B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A6131C724D1B4F10006952B /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		3A7B55CE24CB202A009082F2 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		3AA1FA3524CB236C00967489 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		3AD5B77E24CEDF980044FEC5 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +44,7 @@
 		3AE3A55F24CE218C001D6217 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		3AF3732E24CC368D00D1BCF1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3AF3733024CD979700D1BCF1 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		3AF9A96E24D17EED009A598C /* ModelTransferHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTransferHelper.swift; sourceTree = "<group>"; };
 		A84DEBA191F47E8AB9806945 /* Pods_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7D9A1B402356235702A535 /* Pods-Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Recipe/Pods-Recipe.debug.xcconfig"; sourceTree = "<group>"; };
 		EE6D7982FC867FF3CA6A5550 /* Pods-Recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipe.release.xcconfig"; path = "Target Support Files/Pods-Recipe/Pods-Recipe.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +67,7 @@
 			children = (
 				3AD5C21A24CAF32F00D0817B /* Model.swift */,
 				3A7B55CE24CB202A009082F2 /* DataProvider.swift */,
+				3AF9A96E24D17EED009A598C /* ModelTransferHelper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -70,8 +79,11 @@
 				3AF3732E24CC368D00D1BCF1 /* DetailViewController.swift */,
 				3AE3A55F24CE218C001D6217 /* ShoppingViewController.swift */,
 				3AD5B77E24CEDF980044FEC5 /* FavouritesViewController.swift */,
+				3A6131C424D1B46A0006952B /* CategoriesViewController.swift */,
 				3AA1FA3524CB236C00967489 /* RecipeTableViewCell.swift */,
 				3AF3733024CD979700D1BCF1 /* IngredientTableViewCell.swift */,
+				3A6131C624D1B4F10006952B /* CategoryCollectionViewCell.swift */,
+				3A6131C724D1B4F10006952B /* CategoryCollectionViewCell.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6131C924D1B4F10006952B /* CategoryCollectionViewCell.xib in Resources */,
 				3AD5C21324CAEF0F00D0817B /* LaunchScreen.storyboard in Resources */,
 				3AD5C21024CAEF0F00D0817B /* Assets.xcassets in Resources */,
 				3AD5C20E24CAEF0B00D0817B /* Main.storyboard in Resources */,
@@ -249,9 +262,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD5C20B24CAEF0B00D0817B /* MainViewController.swift in Sources */,
+				3A6131C524D1B46A0006952B /* CategoriesViewController.swift in Sources */,
 				3AE3A56024CE218C001D6217 /* ShoppingViewController.swift in Sources */,
 				3AD5C20724CAEF0B00D0817B /* AppDelegate.swift in Sources */,
+				3A6131C824D1B4F10006952B /* CategoryCollectionViewCell.swift in Sources */,
 				3A7B55CF24CB202A009082F2 /* DataProvider.swift in Sources */,
+				3AF9A96F24D17EED009A598C /* ModelTransferHelper.swift in Sources */,
 				3AA1FA3624CB236C00967489 /* RecipeTableViewCell.swift in Sources */,
 				3AF3733124CD979700D1BCF1 /* IngredientTableViewCell.swift in Sources */,
 				3AD5C21B24CAF32F00D0817B /* Model.swift in Sources */,
