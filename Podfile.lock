@@ -1,4 +1,5 @@
 PODS:
+  - paper-onboarding (6.1.5)
   - Realm (5.2.0):
     - Realm/Headers (= 5.2.0)
   - Realm/Headers (5.2.0)
@@ -9,20 +10,23 @@ PODS:
   - SDWebImage/Core (5.8.3)
 
 DEPENDENCIES:
+  - paper-onboarding
   - RealmSwift
   - SDWebImage (~> 5.8)
 
 SPEC REPOS:
   trunk:
+    - paper-onboarding
     - Realm
     - RealmSwift
     - SDWebImage
 
 SPEC CHECKSUMS:
+  paper-onboarding: fede1799b1da6988f3788e3b71654583c6f3bce1
   Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
   RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
   SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
 
-PODFILE CHECKSUM: 4df1f3de7e3b9fd33c64b1ac67257e6f3828f169
+PODFILE CHECKSUM: 4f215980fd89d3ec2d8b367eda1197fdba6d0222
 
 COCOAPODS: 1.9.1

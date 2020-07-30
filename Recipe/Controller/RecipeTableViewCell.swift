@@ -25,6 +25,8 @@ class RecipeTableViewCell: UITableViewCell {
         super.layoutSubviews()
         containerView.clipsToBounds = true
         containerView.layer.cornerRadius = 15
+        containerView.layer.borderWidth = 1
+        containerView.layer.borderColor = #colorLiteral(red: 1, green: 0.2510420978, blue: 0.5044532418, alpha: 1)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -10,6 +10,7 @@ import UIKit
 import Foundation
 import SDWebImage
 import RealmSwift
+import paper_onboarding
 
 class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, DataProviderDelegate {
 

@@ -8,4 +8,5 @@ target 'Recipe' do
   # Pods for Recipe
   pod 'SDWebImage', '~> 5.8'
   pod 'RealmSwift'
+  pod 'paper-onboarding'
 end
